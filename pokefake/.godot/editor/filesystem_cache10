@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1742168473
+icon.svg::CompressedTexture2D::8720302406391850406::1742158275::1742158285::1::::<><><>0<>0<>15cfe04a252c5bf10f01aebfd8c4a235<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+node_2d.tscn::PackedScene::5978265228206854485::1742167933::0::1::::<><><>0<>0<><>::uid://dh8okmp1whnsf::::res://sprites/Grass1920x1080.png
+character_body_2d.gd::GDScript::1357092127418068311::1742168473::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://scripts/::0
+::res://sprites/::1742167839
+bush.png::CompressedTexture2D::1802199417763972400::1742166848::1742166849::1::::<><><>0<>0<>86711974b0d9d2961363950a1d2ef5ae<>res://.godot/imported/bush.png-45f5a4c69f3b2138555afd42f7f650d3.ctex::
+Grass1.png::CompressedTexture2D::3820690001677865772::1742166848::1742166849::1::::<><><>0<>0<>3d9d490adfdbc20794f5bb91393f55df<>res://.godot/imported/Grass1.png-b24ed4ee2d450f997c3e299b9522e242.ctex::
+Grass512.png::CompressedTexture2D::3493494173141782351::1742167244::1742167244::1::::<><><>0<>0<>a9305838de8eb5839a72e194b27be54c<>res://.godot/imported/Grass512.png-7acd97e314f458b75b198bd4f5de60fd.ctex::
+Grass1920x1080.png::CompressedTexture2D::7719576972930561077::1742167839::1742167839::1::::<><><>0<>0<>96b2851cd0ba81d79470a16b137baa22<>res://.godot/imported/Grass1920x1080.png-cb789b1b5e1e02ea56f2ab7052d5b3e0.ctex::
+Sprites boneco.png::CompressedTexture2D::1440983953657965962::1742166848::1742166849::1::::<><><>0<>0<>681f36812081c921078040c523382f02<>res://.godot/imported/Sprites boneco.png-9ecd4aff40dd46b82c6d675870f0da80.ctex::
