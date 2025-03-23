@@ -1,12 +1,21 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1742168473
-icon.svg::CompressedTexture2D::8720302406391850406::1742158275::1742158285::1::::<><><>0<>0<>15cfe04a252c5bf10f01aebfd8c4a235<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-node_2d.tscn::PackedScene::5978265228206854485::1742167933::0::1::::<><><>0<>0<><>::uid://dh8okmp1whnsf::::res://sprites/Grass1920x1080.png
-character_body_2d.gd::GDScript::1357092127418068311::1742168473::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://scripts/::0
-::res://sprites/::1742167839
-bush.png::CompressedTexture2D::1802199417763972400::1742166848::1742166849::1::::<><><>0<>0<>86711974b0d9d2961363950a1d2ef5ae<>res://.godot/imported/bush.png-45f5a4c69f3b2138555afd42f7f650d3.ctex::
-Grass1.png::CompressedTexture2D::3820690001677865772::1742166848::1742166849::1::::<><><>0<>0<>3d9d490adfdbc20794f5bb91393f55df<>res://.godot/imported/Grass1.png-b24ed4ee2d450f997c3e299b9522e242.ctex::
-Grass512.png::CompressedTexture2D::3493494173141782351::1742167244::1742167244::1::::<><><>0<>0<>a9305838de8eb5839a72e194b27be54c<>res://.godot/imported/Grass512.png-7acd97e314f458b75b198bd4f5de60fd.ctex::
-Grass1920x1080.png::CompressedTexture2D::7719576972930561077::1742167839::1742167839::1::::<><><>0<>0<>96b2851cd0ba81d79470a16b137baa22<>res://.godot/imported/Grass1920x1080.png-cb789b1b5e1e02ea56f2ab7052d5b3e0.ctex::
-Sprites boneco.png::CompressedTexture2D::1440983953657965962::1742166848::1742166849::1::::<><><>0<>0<>681f36812081c921078040c523382f02<>res://.godot/imported/Sprites boneco.png-9ecd4aff40dd46b82c6d675870f0da80.ctex::
+::res://::1742721206
+icon.svg::CompressedTexture2D/CompressedTexture2D::8720302406391850406::1742604901::1742605189::1::::<><><>0<>0<>15cfe04a252c5bf10f01aebfd8c4a235<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://scenes/::1742721251
+starter_town.tscn::PackedScene::5978265228206854485::1742721251::0::1::::<><><>0<>0<><>::uid://dh8okmp1whnsf::::res://sprites/Grass1920x1080.png<>uid://tlndycxnsist::::res://scripts/player.gd<>uid://usa2biafiyxm::::res://sprites/Sprites boneco.png
+::res://scripts/::1742721129
+player.gd::GDScript/GDScript::1357092127418068311::1742604901::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://sprites/::1742722659
+buildings.png::CompressedTexture2D/CompressedTexture2D::1143684436723562182::1742719382::1742719927::1::::<><><>0<>0<>8c35d9cc9f5178c47f52534da344e53f<>res://.godot/imported/buildings.png-9d2cf5a92c7f7fb00e38992b9ca896b7.ctex::
+bush.png::CompressedTexture2D/CompressedTexture2D::1802199417763972400::1742604901::1742605189::1::::<><><>0<>0<>86711974b0d9d2961363950a1d2ef5ae<>res://.godot/imported/bush.png-45f5a4c69f3b2138555afd42f7f650d3.ctex::
+Grass1.png::CompressedTexture2D/CompressedTexture2D::3820690001677865772::1742604901::1742605189::1::::<><><>0<>0<>3d9d490adfdbc20794f5bb91393f55df<>res://.godot/imported/Grass1.png-b24ed4ee2d450f997c3e299b9522e242.ctex::
+Grass512.png::CompressedTexture2D/CompressedTexture2D::3493494173141782351::1742604901::1742605189::1::::<><><>0<>0<>a9305838de8eb5839a72e194b27be54c<>res://.godot/imported/Grass512.png-7acd97e314f458b75b198bd4f5de60fd.ctex::
+Grass1920x1080.png::CompressedTexture2D/CompressedTexture2D::7719576972930561077::1742604901::1742605189::1::::<><><>0<>0<>96b2851cd0ba81d79470a16b137baa22<>res://.godot/imported/Grass1920x1080.png-cb789b1b5e1e02ea56f2ab7052d5b3e0.ctex::
+player sprites-sheet.png::CompressedTexture2D::2904777180465492372::1742723057::1742723058::1::::<><><>0<>0<>52e22f2a9963ae76cd54ff998a75bf67<>res://.godot/imported/player sprites-sheet.png-e56091cf47bccdf125267d3c540eb0e1.ctex::
+Sprites boneco.png::CompressedTexture2D/CompressedTexture2D::1440983953657965962::1742604901::1742605189::1::::<><><>0<>0<>681f36812081c921078040c523382f02<>res://.godot/imported/Sprites boneco.png-9ecd4aff40dd46b82c6d675870f0da80.ctex::
+::res://sprites/pokemons/::1742721206
+axolote.png::CompressedTexture2D/CompressedTexture2D::7181563201985801940::1742719749::1742721196::1::::<><><>0<>0<>e6bd3d858ce400fb8385d01ef75b8e65<>res://.godot/imported/axolote.png-ca758ba9c7216a6c4b706a097d50a3a2.ctex::
+castform.png::CompressedTexture2D/CompressedTexture2D::6905137999585175274::1742719887::1742721198::1::::<><><>0<>0<>1409bb6f98a415dc170867fe5d03f986<>res://.godot/imported/castform.png-95593cc435cbfb9ab1768cf942da5323.ctex::
+komodo.png::CompressedTexture2D/CompressedTexture2D::8444053331060503811::1742719793::1742721204::1::::<><><>0<>0<>756652154a7dfd06140144d18c7a6b0d<>res://.godot/imported/komodo.png-23e8d654385c47085fa4d4978f32263f.ctex::
+noita.png::CompressedTexture2D/CompressedTexture2D::1215972001836357697::1742719828::1742721201::1::::<><><>0<>0<>2e171cd15391a4244c2c58f8f1622b6e<>res://.godot/imported/noita.png-7304d4b74abe6e2473565c38f3a0edb5.ctex::
+perereca psiquica.png::CompressedTexture2D::6869528164746105020::1742719602::1742721206::1::::<><><>0<>0<>a9a3b4ab12fb1d1bec87707b47593a73<>res://.godot/imported/perereca psiquica.png-73bf7a20829cc1347b965bbe1b83e3c2.ctex::

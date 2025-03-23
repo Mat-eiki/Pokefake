@@ -1,25 +1,25 @@
 [gd_scene load_steps=5 format=3 uid="uid://crf6fjbeqlgbd"]
 
-[ext_resource type="Texture2D" uid="uid://dh8okmp1whnsf" path="res://sprites/Grass1920x1080.png" id="1_wtcfe"]
-[ext_resource type="Script" uid="uid://tlndycxnsist" path="res://scripts/character_body_2d.gd" id="2_epypp"]
-[ext_resource type="Texture2D" uid="uid://usa2biafiyxm" path="res://sprites/Sprites boneco.png" id="3_0hol4"]
+[ext_resource type="Texture2D" uid="uid://dh8okmp1whnsf" path="res://sprites/Grass1920x1080.png" id="1_e5vke"]
+[ext_resource type="Script" uid="uid://tlndycxnsist" path="res://scripts/player.gd" id="2_krr55"]
+[ext_resource type="Texture2D" uid="uid://usa2biafiyxm" path="res://sprites/Sprites boneco.png" id="3_rdphl"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q6r6c"]
 size = Vector2(40, 15)
 
-[node name="Node2D" type="Node2D"]
+[node name="StarterTown" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.5, 1.5)
 
 [node name="Grass1920x1080" type="Sprite2D" parent="."]
-texture = ExtResource("1_wtcfe")
+texture = ExtResource("1_e5vke")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-script = ExtResource("2_epypp")
+script = ExtResource("2_krr55")
 
 [node name="Texture" type="Sprite2D" parent="CharacterBody2D"]
-texture = ExtResource("3_0hol4")
+texture = ExtResource("3_rdphl")
 hframes = 4
 vframes = 4
 

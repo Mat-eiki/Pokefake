@@ -1,2 +1,2 @@
-res://node_2d.tscn
-res://scripts/character_body_2d.gd
+res://scenes/starter_town.tscn
+res://scenes/player.tscn
