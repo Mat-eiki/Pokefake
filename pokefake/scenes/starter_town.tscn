@@ -2,28 +2,32 @@
 
 [ext_resource type="Texture2D" uid="uid://dh8okmp1whnsf" path="res://sprites/Grass1920x1080.png" id="1_e5vke"]
 [ext_resource type="Script" uid="uid://tlndycxnsist" path="res://scripts/player.gd" id="2_krr55"]
-[ext_resource type="Texture2D" uid="uid://usa2biafiyxm" path="res://sprites/Sprites boneco.png" id="3_rdphl"]
+[ext_resource type="Texture2D" uid="uid://bhndixw0lnb7y" path="res://sprites/player sprites-sheet.png" id="3_e5vke"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_q6r6c"]
-size = Vector2(40, 15)
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e5vke"]
+size = Vector2(17, 10)
 
 [node name="StarterTown" type="Node2D"]
-
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(1.5, 1.5)
 
 [node name="Grass1920x1080" type="Sprite2D" parent="."]
 texture = ExtResource("1_e5vke")
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="Player" type="CharacterBody2D" parent="."]
+motion_mode = 1
 script = ExtResource("2_krr55")
+movement_speed = 210
 
-[node name="Texture" type="Sprite2D" parent="CharacterBody2D"]
-texture = ExtResource("3_rdphl")
-hframes = 4
+[node name="PlayerSprites-sheet" type="Sprite2D" parent="Player"]
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("3_e5vke")
+hframes = 3
 vframes = 4
+frame = 3
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-show_behind_parent = true
-position = Vector2(0, 22.5)
-shape = SubResource("RectangleShape2D_q6r6c")
+[node name="Camera2D" type="Camera2D" parent="Player"]
+zoom = Vector2(1.2, 1.2)
+position_smoothing_enabled = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(1.5, 17)
+shape = SubResource("RectangleShape2D_e5vke")
