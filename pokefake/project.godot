@@ -11,15 +11,9 @@ config_version=5
 [application]
 
 config/name="pokefake"
-run/main_scene="res://scenes/starter_town.tscn"
+run/main_scene="res://scenes/main_menu.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
-
-[display]
-
-window/size/viewport_width=960
-window/size/viewport_height=540
-window/stretch/mode="viewport"
 
 [input]
 
